@@ -1,0 +1,226 @@
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f0f0f0;
+    
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+header h1 {
+	font-size: 36px;
+	margin: 0;
+}
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+  }
+
+
+
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+.card {
+	background-color: #fff;
+	margin: 20px;
+	padding: 20px;
+	width: 200px;
+	height: 200px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+}
+
+.card:hover {
+	transform: scale(1.1);
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+#earthquake {
+	background-color: #ff9999;
+}
+
+#flood {
+	background-color: #99ccff;
+}
+
+#cloudburst {
+	background-color: #ccffcc;
+}
+
+#meteor-strike {
+	background-color: #ffcc99;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	margin-top: 50px;
+    border-radius: 10px;
+}
+
+footer ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+footer li {
+	margin-right: 20px;
+}
+
+footer a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.title {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	margin-bottom: 20px;
+	border-radius: 10px 10px 0 0;
+}
+.title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    animation: titleAnimation 2s ease-in-out;
+  }
+  
+  @keyframes titleAnimation {
+    0% {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+
+.title h1 {
+	font-size: 48px;
+	margin: 0;
+	text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.navbar {
+	background-color: #444;
+	padding: 10px;
+	border-radius: 0 0 10px 10px;
+}
+
+.navbar ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+}
+@media (max-width: 768px) {
+    .cards {
+      flex-direction: column;
+      align-items: center;
+    }
+    .card {
+      width: 80%;
+      margin: 20px auto;
+    }
+  }
+
+  
+  /* Add styles for new sections */
+.calamity-info, .emergency-contacts, .preparedness-tips, .calamity-resources {
+    margin: 50px 0;
+    padding-left: 20px;
+  }
+  
+  .info-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card{
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card h3{
+    margin-top: 0;
+  }
+    
+
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  .logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+  
+  .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .search-bar input {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+  }
+  .user-account a {
+    color: #fff;
+    text-decoration: none;
+  }
+      
+
+
+  .card img{
+    width: 100%; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Cover the entire container */
+    max-width: 100%; /* Adjust the maximum width as needed */
+    max-height: 300px; /* Adjust the maximum height as needed */
+    aspect-ratio: 20 / 15;
+  }
